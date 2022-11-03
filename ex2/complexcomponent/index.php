@@ -79,7 +79,7 @@ $APPLICATION->SetTitle("Комплексный компонент");
 		"VARIABLE_ALIASES" => array(
 			"SECTION_ID" => "SECTION_ID",
 			"ELEMENT_ID" => "ELEMENT_ID",
-			"PARAM1" => "PARAM1",
+			"PARAM1" => "PARAM3",
 			"PARAM2" => "PARAM2",
 		)
 	),
