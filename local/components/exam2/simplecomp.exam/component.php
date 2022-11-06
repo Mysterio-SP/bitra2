@@ -35,12 +35,12 @@ if ($USER->IsAuthorized()) {
     );
 }
 
-//код по заданию [ex2-81]
+//код по заданию [ex2-49]
 $cFilter = false;
 
 if(isset($_REQUEST["F"]))
     $cFilter = true;
-//конец части кода по заданию [ex2-81]
+//конец части кода по заданию [ex2-49]
 
 
 //код по заданию [ex2-107]
@@ -112,7 +112,7 @@ if ($this->startResultCache(false, array($cFilter, $arNavigation), "/servicesIbl
     );
 
 
-    //добавляем дополнительное условие в фильтр по заданию [ex2-81]
+    //добавляем дополнительное условие в фильтр по заданию [ex2-49]
     if($cFilter) {
         $arFilterElements[] = array(
             array("<=PROPERTY_PRICE" => 1700, "PROPERTY_MATERIAL" => "Дерево, ткань"),
