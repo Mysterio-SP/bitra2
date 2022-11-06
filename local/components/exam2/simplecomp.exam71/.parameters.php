@@ -2,18 +2,23 @@
 if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true) die();
 $arComponentParameters = array(
 	"PARAMETERS" => array(
-		"NEWS_IBLOCK_ID" => array(
-			"NAME" => GetMessage("SIMPLECOMP_EXAM2_NEWS_IBLOCK_ID"),
+		"CAT_IBLOCK_ID" => array(
+			"NAME" => GetMessage("SIMPLECOMP_EXAM2_CAT_IBLOCK_ID"),
 			"PARENT" => "BASE",
 			"TYPE" => "STRING",
 		),
-		"AUTHOR_PROPERTY" => array(
-			"NAME" => GetMessage("SIMPLECOMP_EXAM2_PROPERTY"),
+		"CLASSIFIER_IBLOCK_ID" => array(
+			"NAME" => GetMessage("SIMPLECOMP_EXAM2_CLASS_IBLOCK_ID"),
 			"PARENT" => "BASE",
 			"TYPE" => "STRING",
 		),
-		"PROPERTY_AUTHOR_TYPE" => array(
-			"NAME" => GetMessage("SIMPLECOMP_EXAM2_CAT_PROPERTY_UF"),
+		"LINK_TEMPLATE_DETAIL" => array(
+			"NAME" => GetMessage("SIMPLECOMP_EXAM2_LINK_TEMPLATE_DETAIL"),
+			"PARENT" => "BASE",
+			"TYPE" => "STRING",
+		),
+    "PRODUCT_PROPERTY_CODE" => array(
+			"NAME" => GetMessage("SIMPLECOMP_EXAM2_PRODUCT_PROP_CODE"),
 			"PARENT" => "BASE",
 			"TYPE" => "STRING",
 		),

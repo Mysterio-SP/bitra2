@@ -32,7 +32,8 @@
 		"PAGER_TEMPLATE" => $arParams["DETAIL_PAGER_TEMPLATE"],
 		"PAGER_SHOW_ALL" => $arParams["DETAIL_PAGER_SHOW_ALL"],
 		"CHECK_DATES" => $arParams["CHECK_DATES"],
-		"ID_IBLOCK_CANONICAL" => $arParams["ID_IBLOCK_CANONICAL"],
+		"ID_IBLOCK_CANONICAL" => $arParams["ID_IBLOCK_CANONICAL"],     //передаём св-во ID инфоблока canonical на детальную страницу по заданию [ex2-108]
+		"REPORT_AJAX" => $arParams["REPORT_AJAX"],                     //передаём св-во включение режима AJAX на детальную страницу по заданию [ex2-104]
 
 		"ELEMENT_ID" => $arResult["VARIABLES"]["ELEMENT_ID"],
 		"ELEMENT_CODE" => $arResult["VARIABLES"]["ELEMENT_CODE"],

@@ -3,12 +3,17 @@
 
 <? if (count($arResult["AUTHORS"]) > 0): ?>
     <ul>
-		<? foreach ($arResult["AUTHORS"] as $key => $arAuthor): ?>
+		<? 
+			//перебираем всех авторов
+			foreach ($arResult["AUTHORS"] as $key => $arAuthor): 
+				if($arAuthor["NEWS"]):
+			?>
             <li>
                 [<?=$key;?>] <?=$arAuthor["LOGIN"];?>
 				<? if (count($arAuthor["NEWS"]) > 0): ?>
                     <ul>
-						<? foreach ($arAuthor["NEWS"] as $arNews): ?>
+						<? //у каждого автора перебираем новости
+							foreach ($arAuthor["NEWS"] as $arNews): ?>
                             <li>
                                 - <?=$arNews["NAME"];?>
                             </li>
@@ -16,6 +21,7 @@
                     </ul>
                 <? endif ?>
             </li>
+			<?endif?>
         <? endforeach ?>
     </ul>
 <? endif ?>

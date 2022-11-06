@@ -11,7 +11,9 @@ $APPLICATION->SetTitle("Простой компонент2");
 		"PROPERTY_UF" => "UF_AUTHOR_TYPE",
 		"CACHE_TYPE" => "A",
 		"CACHE_TIME" => "36000000",
-		"CACHE_GROUPS" => "Y"
+		"CACHE_GROUPS" => "Y",
+		"PROPERTY_AUTHOR_TYPE" => "UF_AUTHOR_TYPE",
+		"AUTHOR_PROPERTY" => "AUTHOR"
 	),
 	false
 );?><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

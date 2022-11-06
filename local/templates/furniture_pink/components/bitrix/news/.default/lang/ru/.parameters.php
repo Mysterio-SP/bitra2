@@ -10,4 +10,5 @@ $MESS["T_IBLOCK_DESC_NEWS_SHARE_SHORTEN_URL_LOGIN"] = "Логин для bit.ly"
 $MESS["T_IBLOCK_DESC_NEWS_SHARE_SHORTEN_URL_KEY"] = "Ключ для для bit.ly";
 $MESS["SPECIALDATE"] = "Установить свойство страницы specialdate";
 $MESS["ID_IBLOCK_CANONICAL"] ="ID информационного блока для rel=canonical";
+$MESS["REPORT_AJAX"] ="Собирать жалобы в режиме AJAX";
 ?>
